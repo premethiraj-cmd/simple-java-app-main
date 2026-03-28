@@ -14,7 +14,7 @@ spec:
     spec:
       containers:        # This must be under spec -> template -> spec
       - name: java-app
-        image: nithiss17/java-app:latest
+        image: premthiraj/java-app:latest
         ports:
         - containerPort: 8080
 ---
